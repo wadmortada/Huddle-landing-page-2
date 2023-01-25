@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+ 
+/* body font-size 400, 700
+ header font-size 600 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and ( max-width: 768px) {
+    /* Header */
+    header {
+        padding: 2rem 1rem;
+        margin-bottom: 3rem;
+        background-image: url(images/bg-hero-mobile.svg);
+        background-size: cover;
+    }
+    .header-content {
+        margin-top: 4rem;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .head-logo {
+        width: 7rem;
+        height: 1.25rem;
+    }
+    .head-top-link {
+        text-decoration: none;
+        background-color: #FFFFFF;
+        color: black;
+        padding: 0.25rem 1rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.15rem gray;
+    }
+    .head-address {
+        font-size: 1.5rem;
+    }
+    header p {
+        margin: 0 0.75rem 2rem 0.75rem;
+    }
+    .head-bottom-link {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FE52C0;
+        padding: 0.5rem 3rem;
+        border-radius: 2rem;
+    }
+    .mockups-img {
+        width: 100%;
+        margin-top: 4rem;
+    }
+    /* Main */
+    main {
+        padding: 0 1rem;
+    }
+
+.cards {
+    padding: 2rem;
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    box-shadow: 0 0 0.1rem rgb(238, 194, 167);
+}
+.cards img {
+    width: 100%;
+}
+.cards 
+
+
+
+}
